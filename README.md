@@ -105,4 +105,5 @@ git branch -d stage
 ```
 
 https://www.w3docs.com/learn-git/git-merge.html
+
 NB: Always check official Doc here: https://git-scm.com/docs/git-add
