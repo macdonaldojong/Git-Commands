@@ -1,39 +1,43 @@
 # Git-Commands
 
 ## To create a new repository on the command line
-* git init
-* git commit -m "first commit"
-* git branch -M main
-* git remote add origin <https://github.com/macdonaldojong/test.git>
-* git push -u origin main
-* git pull 
+```
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin <https://github.com/macdonaldojong/test.git>
+git push -u origin main
+git pull 
+```
 
 ![image](https://user-images.githubusercontent.com/58276505/172822039-4959a186-04cb-47a1-82dd-b887e8d576a6.png)
 
 ## For push an existing repository from the command line
 
-* git clone  <https://github.com/macdonaldojong/test.git>
+```
+git clone  <https://github.com/macdonaldojong/test.git>
 
-* git checkout -b <new-branch>  (create new & change to new branch)
+git checkout -b <new-branch>  (create new & change to new branch)
 
-* git status			(check modification status)
-* git add -A 			(to add all files in folder)
-* git commit -m "first commit"
+git status		                       	(check modification status)
+git add -A 			                      (To add all files in folder)
+git commit -m "first commit"
  
-* git branch			(to check which branch)
-* git branch -M main      	(to check which branch)
-* git checkout <branchname>	(Switching Branches)
+git branch		                       	(To check which branch)
+git branch -M main      	           (To check which branch)
+git checkout <branchname>	          (Switching Branches)
   
-* git remote add origin <https://github.com/macdonaldojong/test.git>
-* git fetch --all 		        (Git Checkout a Remote Branch)
+git remote add origin <https://github.com/macdonaldojong/test.git>
+git fetch --all 		                  (Git Checkout a Remote Branch)
 
-* git checkout ＜remotebranch＞   (To checkout a remote branch in another remote-account)
-* git checkout -b ＜remotebranch＞ origin/＜remotebranch＞ (Create & checkout a remote branch in another remote-account)
+git checkout ＜remotebranch＞        (To checkout a remote branch in another remote-account)
+git checkout -b ＜remotebranch＞ origin/＜remotebranch＞ (Create & checkout a remote branch in another remote-account)
 
-* git branch main 		        (confirm branch with remote origin or switch)
-* git push -u origin main       (origin main or master, always check by running: git branch)
+git branch main 		                   (confirm branch with remote origin or switch)
+git push -u origin main              (origin main or master, always check by running: git branch)
 
-* git pull    		        (pull any difference in the remote origin)
+git pull    		                       (pull any difference in the remote origin)
+```
 
 ## git Merge:
   
