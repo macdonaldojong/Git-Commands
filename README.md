@@ -7,6 +7,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin <https://github.com/macdonaldojong/test.git>
 git push -u origin main
+git fetch --all
 git pull 
 ```
 
@@ -36,8 +37,16 @@ git checkout -b ＜remotebranch＞ origin/＜remotebranch＞ (Create & checkout 
 git branch main 		                   (confirm branch with remote origin or switch)
 git push -u origin main              (origin main or master, always check by running: git branch)
 
+git fetch --all
 git pull    		                       (pull any difference in the remote origin)
 ```
+
+# Revert a just commit/push (roll back Git to your previous commit without changing the files)
+
+git reset --mixed origin/master
+git add .
+git commit -m "This is a new commit for what I originally planned to be an amendmend"
+git push origin master
 
 ## git Merge:
   
