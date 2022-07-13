@@ -41,15 +41,18 @@ git fetch --all
 git pull    		                       (pull any difference in the remote origin)
 ```
 
-# Revert a just commit/push
-* (roll back Git to your previous commit without changing the files)
+## Revert a just commit/push
 
-* git reset --mixed origin/master
-* git add .
-* git commit -m "This is a new commit for what I originally planned to be an amendmend"
-* git push origin master
+Roll back Git to your previous commit without changing the files
 
-## git Merge:
+```
+git reset --mixed origin/master
+git add .
+git commit -m "This is a new commit for what I originally planned to be an amendmend"
+git push origin master
+```
+
+## Git Merge:
   
 ### Before the merging process we should take some steps.
 * Firstly, invoke git status so that to point HEAD to the correct merge-receiving branch. 
