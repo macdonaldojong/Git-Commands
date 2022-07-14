@@ -50,6 +50,18 @@ git reset --mixed origin/master
 git add .
 git commit -m "This is a new commit for what I originally planned to be an amendmend"
 git push origin master
+
+
+git push --force origin master         # to overide others commits and force yours
+
+# push large files (lfs)
+git lfs install              # if not exist
+git lfs track "*.psd"        #  psd = is the large file type
+git add .gitattributes       # make sure it is tracked
+
+git add file.psd
+git commit -m "Add design file"
+git push origin main
 ```
 
 ## Git Merge:
