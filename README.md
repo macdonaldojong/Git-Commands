@@ -28,7 +28,9 @@ git branch		                       	(To check which branch)
 git branch -M main      	           (To check which branch)
 git checkout <branchname>	          (Switching Branches)
 
+git remote -v
 git remote set-url origin <new.git.url/here>
+git remote -v
 git remote add origin <https://github.com/macdonaldojong/test.git>
 git fetch --all 		                  (Git Checkout a Remote Branch)
 
